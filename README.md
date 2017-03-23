@@ -11,6 +11,10 @@ pyStudyGroup is a python user group located on slack in which members can:
 This repository is for pyStudyGroup members to introduce ourselves as well as share small pieces of code with other users
 
 ## Getting started with git
+The following is a short introduction to git and getting started with pyStudyGroup but should by no means be considered a complete 
+guide. Please take time to get familiar with git and github to better communicate with fellow members.
+* www.git-scm.com
+* www.github.com
 
 Before getting started make sure you have installed [git](https://git-scm.com) on your system
 and that you have a [github](https:github.com) account
@@ -39,10 +43,12 @@ $ cd pyStudyGroupSlack
 
 ### Create *your* directory
 While inside pyStudyGroup, create a directory with your slack username
+
 ```
 $ mkdir <username>
 $ git add <username>
 ```
+
 and go inside that directory
 
 ```
@@ -59,32 +65,21 @@ saying some things about me
 $ vim README.md
 ```
 
-I can create a folder with my projects
-**OR**
-Ask for help from other members
-
-Then you go up on folder
+Then add this folder to github tracking
 
 ```
-$ cd ..
+$ git add .
 ```
 
-Then you add the folder on git
+Then commit with your slack username as the message and push (upload) the changes to github
 
 ```
-$ git add iakovos.belonias
-```
-
-Then you commit and as a commit message you write your slack name
-
-```
-$ git commit -m "iakovos.belonias"
-```
-
-And you push the commit
-
-```
+$ git commit -m <username>
 $ git push
 ```
 
-If you read so far you are awesome :)
+Finally we must get this back to Belonias/pyStudyGroupSlack. So go to the project's github page
+at https://github.com/Belonias/pyStudyGroupSlack and click "Compare and pull request" to submit your changes
+to the original project (pending approval)
+
+Thank you for reading and joining us at pyStudyGroup!

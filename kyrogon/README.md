@@ -1,1 +1,2 @@
-# Kyrogon
+# Aaron Rogers
+kyrogon@gmail.com
